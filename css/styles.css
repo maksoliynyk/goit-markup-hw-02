@@ -1,0 +1,105 @@
+li {
+    list-style: none;
+}
+ {
+    text-decoration: none;
+}
+
+body{
+    font-family: Roboto, Raleway;
+    color:navy
+}
+.menu {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+}
+
+.contact:hover,
+.contact:focus{
+    color:orange
+}
+
+.list-cont{
+        font-size: 16px;
+        line-height: 150%;
+}
+
+.first-h {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 107%;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+.order {
+font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: white;
+    background: #4D5AE5
+}
+
+.list-advantages{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 120%;
+        letter-spacing: 0.02em;
+}
+
+.list-advantages-text {
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.02em;
+}
+
+.second-h {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 111%;
+}
+
+.name-worker {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 120%;
+}
+
+.position {
+        font-size: 16px;
+        line-height: 150%;
+}
+
+.main-but {
+    font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+}
+
+.picture-name {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 120%;
+}
+
+.picture-text {
+        font-size: 16px;
+        line-height: 150%;
+}
+
+.all-but{
+    cursor: pointer;
+}
+
+.main-but:hover,
+.main-but:focus{
+    color: orange;
+}
+
+.sec-but:hover,
+.sec-but:focus{
+    color: #4D5AE5;
+}
