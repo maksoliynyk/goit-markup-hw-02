@@ -134,7 +134,7 @@ font-family: 'Roboto', sans-serif;
         color:#434455
 }
 
-.main-button {
+.main-button .sec-but{
     font-family: 'Roboto', sans-serif;
         font-weight: 500;
         font-size: 16px;
