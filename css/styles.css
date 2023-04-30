@@ -12,7 +12,8 @@ body{
 }
 
 :root {
-    --accent-color:var#
+    --main-font-family:"Roboto", sans-serif;
+    --secont-font-family:"Raleway", sans-serif;
 }  
 .logo {
     font-family: 'Raleway',sans-serif;
@@ -52,10 +53,10 @@ body{
     color:#404bbf;
 }
 
-.client-list{
+.contact-list-item{
     font-style: normal;
     font-size: 16px;
-    line-height: 150%;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
