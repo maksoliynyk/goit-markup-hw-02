@@ -27,6 +27,10 @@ body{
 .logo {
     color: #4d5ae5;
 }
+
+.logo-sec {
+    color: #2e2f42;
+}
 .list {
         font-weight: 500;
         font-size: 16px;
@@ -53,7 +57,7 @@ body{
     color: #434455;
 }
 
-.fist-sect{
+.first-sect {
     background-color: #2e2f42;
 }
 .first-h {
@@ -70,8 +74,8 @@ font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
-    letter-spacing: 0.04em
-    color: white;
+    letter-spacing: 0.04em;
+    color: #ffffff;
     background: #4D5AE5
 }
 
@@ -107,12 +111,16 @@ font-family: 'Roboto', sans-serif;
 .forth-sect {
     background-color: #F4F4FD;
 }
+
+.inf-work{
+    background-color: #ffffff;
+}
 .name-worker {
         font-weight: 500;
         font-size: 20px;
         line-height: 120%;
         letter-spacing: 0.02em;
-        color: #434455
+        color: #2e2f42
 }
 
 .position {
