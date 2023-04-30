@@ -20,32 +20,30 @@ body{
         font-size: 18px;
         line-height: 1.17;
         letter-spacing: 0.03em;
-        text-transform: uppercase
+        text-transform: uppercase;
+        color: #4d5ae5;
 }
 
-.logo {
-    color: #4d5ae5;
-}
 
 .logo-sec {
-    color:#f4f4fd;
+    color:#2e2f42;
 }
-.list {
+.menu {
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em
 }
 
-.listnav:hover,
-.listnav:focus{
+.menu-nav:hover,
+.menu-nav:focus{
     color:#404bbf;
 }
-.listnav{
+.listnav {
     color: #2e2f42;
 }
 
-.contact{
+.contact {
     color: #434455;
 }
 
