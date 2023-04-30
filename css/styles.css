@@ -1,36 +1,68 @@
-li {
+.list {
     list-style: none;
 }
- {
+.link {
     text-decoration: none;
 }
 
 body{
-    font-family: Roboto, Raleway;
-    color:navy
+    font-family: Roboto, sans-serif;
+    color: #434455;
+    background-color: white;
 }
-.menu {
+
+:root {
+    --accent-color:var(#404bbf)
+}
+
+.logo {
+    font-family: 'Raleway',sans-serif;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase
+}
+
+.logo {
+    color: #4d5ae5;
+}
+.list {
         font-weight: 500;
         font-size: 16px;
-        line-height: 150%;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+}
+
+.list-nav:hover,
+.list-nav:focus{
+    color:var(#404bbf)
 }
 
 .contact:hover,
 .contact:focus{
-    color:orange
+    color:var(#404bbf)
 }
 
 .list-cont{
-        font-size: 16px;
-        line-height: 150%;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
+.fist-sect{
+    background-color: #2e2f42;
+}
 .first-h {
     font-weight: 700;
     font-size: 56px;
     line-height: 107%;
     text-align: center;
     letter-spacing: 0.02em;
+    color: white;
 }
 
 .order {
@@ -38,38 +70,56 @@ font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
+    letter-spacing: 0.04em
     color: white;
     background: #4D5AE5
 }
 
+.order:hover,
+.order:focus{
+    background-color: #404BBF
+}
 .list-advantages{
         font-weight: 500;
         font-size: 20px;
         line-height: 120%;
         letter-spacing: 0.02em;
+        color: #2e2f42;
 }
 
 .list-advantages-text {
         font-size: 16px;
         line-height: 150%;
         letter-spacing: 0.02em;
+        color: #434455;
 }
 
 .second-h {
         font-weight: 700;
         font-size: 36px;
         line-height: 111%;
+        text-align: center;
+        text-transform: capitalize;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
 }
 
+.forth-sect {
+    background-color: #F4F4FD;
+}
 .name-worker {
         font-weight: 500;
         font-size: 20px;
         line-height: 120%;
+        letter-spacing: 0.02em;
+        color: #434455
 }
 
 .position {
         font-size: 16px;
         line-height: 150%;
+        letter-spacing: 0.02em;
+        color:#434455
 }
 
 .main-but {
