@@ -40,16 +40,16 @@ body{
 .menu-nav:focus{
     color:#404bbf;
 }
-.listnav {
+.menu-nav {
     color: #2e2f42;
 }
 
-.contact {
-    color: #434455;
+.contact{
+    font-style: normal
 }
 
-.contact:hover,
-.contact:focus{
+.contact-list-item:hover,
+.contact-list-item:focus{
     color:#404bbf;
 }
 
