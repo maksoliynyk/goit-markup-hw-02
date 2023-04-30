@@ -122,11 +122,15 @@ font-family: 'Roboto', sans-serif;
         color:#434455
 }
 
-.main-but {
+.main-button {
     font-family: 'Roboto', sans-serif;
         font-weight: 500;
         font-size: 16px;
         line-height: 150%;
+        letter-spacing: 0.04em;
+        color:#4d5ae5;
+        background-color: #F4F4FD;
+        cursor: pointer
 }
 
 .picture-name {
@@ -140,16 +144,17 @@ font-family: 'Roboto', sans-serif;
         line-height: 150%;
 }
 
-.all-but{
-    cursor: pointer;
-}
-
-.main-but:hover,
-.main-but:focus{
-    color: orange;
+.main-button:hover,
+.main-button:focus{
+    color: white;
+    background-color: #404BBF;
 }
 
 .sec-but:hover,
 .sec-but:focus{
     color: #4D5AE5;
+}
+
+.last-step{
+    background-color: #2e2f42;
 }
